@@ -1,0 +1,63 @@
+.donut-chart-container {
+  width: 100%;
+  max-width: 24rem;
+  background-color: white;
+  height: 100%;
+  max-height: 20rem;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  position: relative;
+  margin-left: 1.5rem;
+}
+.donut-chart-container h3 {
+  font-size: 1.3125rem;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 100%;
+  text-transform: capitalize;
+}
+.donut-chart-container p {
+  font-size: 0.6875rem;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  text-transform: capitalize;
+}
+
+.green-legend {
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 25px;
+  background: #018e42;
+  margin-right: 10px;
+}
+
+.red-legend {
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 25px;
+  background: #ed1c24;
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .donut-chart-container {
+    max-width: 19rem;
+    margin-left: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .donut-chart-container {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 820px) {
+  .donut-chart-container {
+    margin-bottom: 0px;
+  }
+}
